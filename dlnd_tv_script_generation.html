@@ -12602,11 +12602,11 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Number of Epochs</span>
-<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">25</span>
+<span class="n">num_epochs</span> <span class="o">=</span> <span class="mi">30</span>
 <span class="c1"># Batch Size</span>
 <span class="n">batch_size</span> <span class="o">=</span> <span class="mi">128</span>
 <span class="c1"># RNN Size</span>
@@ -12643,7 +12643,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12694,7 +12694,7 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12742,13 +12742,14 @@ Barney_Gumble: Yeah, you should only drink to enhance your social skills.
 <div class="prompt"></div>
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Epoch   0 Batch    0/26   train_loss = 8.821
-Epoch   3 Batch   22/26   train_loss = 3.936
-Epoch   7 Batch   18/26   train_loss = 2.874
-Epoch  11 Batch   14/26   train_loss = 2.168
-Epoch  15 Batch   10/26   train_loss = 1.669
-Epoch  19 Batch    6/26   train_loss = 1.217
-Epoch  23 Batch    2/26   train_loss = 1.016
+<pre>Epoch   0 Batch    0/26   train_loss = 8.824
+Epoch   3 Batch   22/26   train_loss = 3.967
+Epoch   7 Batch   18/26   train_loss = 2.891
+Epoch  11 Batch   14/26   train_loss = 2.160
+Epoch  15 Batch   10/26   train_loss = 1.701
+Epoch  19 Batch    6/26   train_loss = 1.259
+Epoch  23 Batch    2/26   train_loss = 1.065
+Epoch  26 Batch   24/26   train_loss = 0.754
 Model Trained and Saved
 </pre>
 </div>
@@ -12770,7 +12771,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12796,7 +12797,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&quot;&quot;&quot;</span>
@@ -12835,7 +12836,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">get_tensors</span><span class="p">(</span><span class="n">loaded_graph</span><span class="p">):</span>
@@ -12889,7 +12890,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">pick_word</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">int_to_vocab</span><span class="p">):</span>
@@ -12942,7 +12943,7 @@ Model Trained and Saved
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">gen_length</span> <span class="o">=</span> <span class="mi">200</span>
@@ -13004,20 +13005,22 @@ Model Trained and Saved
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>INFO:tensorflow:Restoring parameters from ./save
-moe_szyslak: legally, lenny.
-carl_carlson:(on a roll) we-we-we switch clothes with them, leave &#39;em in your mouth at the game fever is long to clean up down right now.
-homer_simpson: c&#39;mon, moe, i really don&#39;t want to hurt people&#39;s feelings.
-homer_simpson: guys, i, it, moe.
-moe_szyslak:(warily) i think it&#39;s like i&#39;m skydiving. i&#39;m going down to moe. i&#39;ll just, you, fat tony?
-wayne:(looks at the name on skinner.
-homer_simpson: wow, with my driving his!
-homer_simpson: that&#39;s the right next drunk?
-writer: i&#39;m sorry. i got it all wrong. i&#39;m talkin&#39; to see easter island.
-football_announcer: so, your are drinkin&#39; city hall.
-moe_szyslak: okay, homer, is it clear. you know, i lost my ma at christmas.
-moe_szyslak: and stay out! why don&#39;t you said that.
-homer_simpson: i can&#39;t believe that would feel so late-- i can i hate it.
-homer_simpson:(running out&#34; here in the middle
+moe_szyslak: power off, einstein.
+moe_szyslak: ah-ha, right, but don&#39;t want no trouble. get &#39;em outta here. barney ain&#39;t never no turning back.
+moe_szyslak: well, moe, my family&#39;s gone, my dog hates me, i&#39;m gonna be sick tonight.
+moe_szyslak: and not a lot of bourbon! that&#39;s tempting.
+lenny_leonard:(calling out) i don&#39;t think so.
+moe_szyslak:(sympathetic) oh, moe, maybe it&#39;s been nice to something.
+eddie: ah, right-- him a moe!&#34;
+homer_simpson:(quiet anger) so you&#39;re here to see / i&#39;ve got the character into a pink lemonade, slice in my mouth it now.
+
+
+moe_szyslak:(computer shotgun) it&#39;s not.
+harv: huh it true.
+lenny_leonard:(kindly) you can do! / yeah! / yo, mafia any in the grocery store the other.
+moe_szyslak:(quickly)&#34; there was no!
+barney_gumble: okay, okay. i want my nickel back.(coughs)
+lisa_simpson: wow! i can&#39;t
 </pre>
 </div>
 </div>
